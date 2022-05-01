@@ -26,7 +26,6 @@ function ProjectCards(props) {
           className="download-button"
           onClick={handleClick}
         >
-          <BiLinkExternal /> &nbsp;
           {props.isBlog ? "View Blog" : "View Project"}
         </Button>
       </Card.Body>
