@@ -5,10 +5,6 @@ import { BiLinkExternal } from "react-icons/bi";
 import { Link } from "react-router-dom";
 
 function ProjectCards(props) {
-  const handleClick = () => {
-    window.open("www.fakejumia.netlify.app");
-  };
-
   return (
     <Card className="project-card-view">
       <Card.Img variant="top" src={props.imgPath} alt="card-img" />
@@ -20,11 +16,7 @@ function ProjectCards(props) {
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
         </Card.Text>
-        <a
-          target="_blank"
-          href="https://fakejumia.netlify.app"
-          rel="noreferrer"
-        >
+        <a target="_blank" href={props.url} rel="noreferrer">
           <Button variant="primary" className="download-button">
             {props.isBlog ? "View Blog" : "View Project"}
           </Button>

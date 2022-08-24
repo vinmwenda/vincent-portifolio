@@ -22,6 +22,7 @@ function Projects() {
                 isBlog={false}
                 title={project.name}
                 description={project.description}
+                url={project.url}
               />
             </Col>
           ))}

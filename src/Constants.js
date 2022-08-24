@@ -1,5 +1,5 @@
 import DROPSHIP from "./Assets/Projects/dropship.jpg";
-
+import flashdl from "./Assets/Projects/flashdl.jpg";
 export const PROJECTS = [
   {
     image: DROPSHIP,
@@ -9,6 +9,14 @@ export const PROJECTS = [
     description:
       "Jumia clone is an E-Commerce platform. Fetching data from node backend and mongodb database.Frontend styling with React Bootstrap and css .Form valudation with joi-browser",
     url: "fakejumia.netlify.app",
+  },
+  {
+    image: flashdl,
+    name: "Flashl Youtube Downloder",
+    technologyUsed: "Nextjs, React, typescript, Nodejs,Javascript",
+    description:
+      "Flashdl is youtube video downloading platform ,supports mp4 and already converted mp3 downloads ",
+    url: "flashdl.herokuapp.com",
   },
 ];
 
