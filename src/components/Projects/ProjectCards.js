@@ -16,7 +16,7 @@ function ProjectCards(props) {
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
         </Card.Text>
-        <a target="_blank" href={props.url} rel="noreferrer">
+        <a target="_blank" href={`https://${props.url}`} rel="noreferrer">
           <Button variant="primary" className="download-button">
             {props.isBlog ? "View Blog" : "View Project"}
           </Button>
